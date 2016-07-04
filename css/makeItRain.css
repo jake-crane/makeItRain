@@ -1,0 +1,13 @@
+.money {
+    position: absolute;
+    top: -50px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #065C27;
+}
+
+.money:before {
+    content: "\f0d6";
+}
